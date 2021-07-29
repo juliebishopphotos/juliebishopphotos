@@ -1,6 +1,6 @@
 body{
     display: block;
-    background-color:white;
+    background-color: rgb(29, 29, 29);
 }
 
 nav{
@@ -8,7 +8,7 @@ nav{
 }
 
 nav ul li a{
-    color: black;
+    color: white;
  }
 
 nav ul li a:hover {
@@ -17,13 +17,56 @@ nav ul li a:hover {
 
  .container {
      text-align: center;
+     height: 250px;
  }
 
  img {
     border-radius: 50%;
     width: 600px;
-    height: 570;
+    height: 550;
   }
+
+.dropdown-item {
+    text-align: center;
+}
+.container-3{
+    background-color: white;
+    text-align: center;
+    height: 1000px;
+}
+
+h1{
+ color: white;
+ text-align: center;
+ font-size: 80px;
+
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+.container-1 div.card {
+    background-color: white;
+    border: rgb(29, 29, 29);
+    margin: 0 1em 2.0em 1em;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
  
