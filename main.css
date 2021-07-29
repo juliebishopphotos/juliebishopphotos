@@ -1,6 +1,6 @@
 body{
     display: block;
-    background-color: white;
+    background-color:white;
 }
 
 nav{
@@ -24,5 +24,6 @@ nav ul li a:hover {
     width: 600px;
     height: 570;
   }
+
 
  
