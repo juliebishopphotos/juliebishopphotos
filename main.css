@@ -5,6 +5,7 @@ body{
 
 nav{
     font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.342);
 }
 
 nav ul li a{
@@ -17,7 +18,7 @@ nav ul li a:hover {
 
  .container {
      text-align: center;
-     height: 250px;
+     height: 400px;
  }
 
  img {
@@ -29,7 +30,7 @@ nav ul li a:hover {
 .dropdown-item {
     text-align: center;
 }
-.container-3{
+.container-2{
     background-color: white;
     text-align: center;
     height: 1000px;
@@ -44,11 +45,11 @@ h1{
 
 h2{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 60px;
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
 
@@ -59,6 +60,12 @@ p{
     margin: 0 1em 2.0em 1em;
     padding: 0;
     text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 288px;
+    object-fit: cover;
 }
 
 
