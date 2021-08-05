@@ -54,7 +54,6 @@ nav{
     margin: auto;
 }
 
-
 #about-me img{
    border-radius: 50% 50%;
    width: 600px;
@@ -95,10 +94,6 @@ div.card :hover .card-img-top{
     height: 288px;
     object-fit: cover;
     border-radius: 0 0 288px 288px;
-}
-
-#card-image-resume{
-    border-radius: 0;
 }
 
 .controls{
