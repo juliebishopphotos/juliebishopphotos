@@ -1,18 +1,25 @@
 
 header{
     position: fixed;
-    width: 100%;
+    width: 1200px;
     top: 0;
     z-index: 9999;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 body{
     display: block;
     background-color: #121212;
+    min-width: 960px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav{
-    font-size: 20px;
+    font-size: 25px;
     font-family: monospace;
     background-color: #121212;
 }
@@ -31,7 +38,7 @@ nav{
 
 
  #logo img{
-    max-width:80%; 
+    max-width: 100%; 
     height:auto;
 }
 
@@ -44,13 +51,13 @@ nav{
     text-align: center;
 }
 
-#about-me{
+#main {
     background-color: rgb(229, 255, 217);
     text-align: center;
     border-radius: 50%;
     height: 1000px;
-    width: 1300px;
-    max-width: 100%;
+    min-width: 960px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -98,7 +105,7 @@ div.card :hover .card-img-top{
 
 .controls{
     background-color: #b6bf6c;
-    max-width: 60%;
+    max-width: 80%;
     border-radius: 0.3em 0.3em;
     margin-left: auto;
     margin-right: auto;
@@ -106,7 +113,6 @@ div.card :hover .card-img-top{
 }
 
 .contact-form{
-    margin-left: 50%;
     resize: none;
 }
 
