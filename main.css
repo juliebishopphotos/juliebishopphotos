@@ -69,9 +69,7 @@ nav{
 }
 
 p{
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    
+    font-size: 19px;
 }
 
 #project{
@@ -118,6 +116,7 @@ div.card :hover .card-img-top{
 
 .row{
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
